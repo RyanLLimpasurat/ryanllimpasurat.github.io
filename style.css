@@ -59,3 +59,6 @@ body{background:#fff}.mark{background:#304c3b}.hero h1 span{color:#526c44}.eyebr
 .section-head p,.article figcaption,.article .curated-gallery figcaption{font-size:.875rem}
 @media(max-width:1000px){.gallery-row{grid-template-columns:minmax(0,1fr);gap:24px}}
 @media(max-width:600px){.article iframe.document-viewer.report-viewer{height:620px}.article iframe.document-viewer.slides-viewer{aspect-ratio:auto;height:440px;min-height:0}}
+
+/* Keep the navigation palette alternating as links are added. */
+.nav-links a:nth-child(odd){color:var(--ink)}.nav-links a:nth-child(even){color:var(--brown)}.nav-links a:hover{color:var(--orange)}
