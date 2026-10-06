@@ -62,3 +62,7 @@ body{background:#fff}.mark{background:#304c3b}.hero h1 span{color:#526c44}.eyebr
 
 /* Keep the navigation palette alternating as links are added. */
 .nav-links a:nth-child(odd){color:var(--ink)}.nav-links a:nth-child(even){color:var(--brown)}.nav-links a:hover{color:var(--orange)}
+
+/* Keep the gallery proportional instead of flattening it on wide screens. */
+.hero-photo.hero-carousel{height:auto;aspect-ratio:16/9}
+@media(max-width:800px){.hero-photo.hero-carousel{aspect-ratio:4/3}}
