@@ -1,5 +1,5 @@
 # Ryan Limpasurat — Engineering Portfolio
 
-Static portfolio website published with GitHub Pages.
+Live portfolio: https://ryanllimpasurat.github.io/
 
-Live address: https://ryanllimpasurat.github.io/
+Static portfolio pages, project images, and animated GIFs. Published from main with GitHub Pages.
